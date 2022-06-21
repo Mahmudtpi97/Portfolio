@@ -20,7 +20,7 @@ a{
 .section-heading h2 span{color: #e74c3c;}
 .service-header p, .pricing-area p, .portfolio-area p{ font-style: inherit;}
 /*After Background*/
-.testimonial-area::after,.portfolio-area::after,.my-skils::after {
+.my-skils::after,.portfolio-area::after,.contact-area::after {
 	position: absolute;
 	content: "";
 	width: 100%;
@@ -319,7 +319,7 @@ a{
 }
 /*Counterup Area*/
 .counter-area {
-	background: #e74c3c;
+	background:#4c2805;
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
@@ -329,8 +329,8 @@ a{
 	margin: 1rem 0;
 }
 .single-count i {
-	color: gold;
-	font-size: 4rem;
+	color: #fff;
+	font-size: 2.5rem;
 }
 .single-count h6 {
 	font-size: 2rem;
@@ -341,12 +341,11 @@ a{
 }
 /*Testimonial Area*/
 .testimonial-area{
-	background: url(../images/testimonial.jpg);
+	background: #000;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 2rem 0;
 	position: relative;
 	z-index: 1;
 	color: #fff;
@@ -377,19 +376,18 @@ a{
 }
 /*Contact Area*/
 .contact-area{
-	background: #000;
+	background: url(../images/testimonial.jpg);
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 2rem 0;
 	position: relative;
 	z-index: 1;
 	color: #fff;
 	overflow: hidden;
 }
 .form-control{
-		background: transparent;
+    background: transparent;
     color: #fff;
   }
  .form-control::placeholder{color: #fff;}

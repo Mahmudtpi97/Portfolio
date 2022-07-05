@@ -35,7 +35,7 @@ $('.progressBar_4').LineProgressbar({
 new Typed("#text_typing",{
   strings: ["Web Designer","Developer"],
   typeSpeed: 200,
-  backSpeed: 50,
+  backSpeed: 5,
   loop:true,
 })
    // Navbar

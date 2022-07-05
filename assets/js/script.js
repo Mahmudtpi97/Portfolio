@@ -33,7 +33,7 @@ $('.progressBar_4').LineProgressbar({
   });
 
 new Typed("#text_typing",{
-  strings: ["Front-End","and WordPress Developer"],
+  strings: ["Web Designer","Developer"],
   typeSpeed: 200,
   backSpeed: 50,
   loop:true,

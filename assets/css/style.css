@@ -449,7 +449,7 @@ a{
 .btt_btn {
 	position: fixed;
 	bottom: 5rem;
-	right: 3rem;
+	left: 2rem;
 	text-decoration: none;
 	outline: none;
 	display: none;

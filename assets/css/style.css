@@ -41,6 +41,15 @@ a{
 	background:#000;
 	color: #fff;
 }
+/* Fiverr Code */
+.fiverr-act {
+    max-width: 200px;
+    width: 100%;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    z-index: 9999;
+}
 /*Header Area*/
 .header-area {
 	background: #b741d8;

@@ -1,6 +1,6 @@
  var mixer = mixitup('.portfolio');
     $('.progressBar_1').LineProgressbar({
-      percentage: 90,
+      percentage: 95,
       fillBackgroundColor: '#3498db',
       backgroundColor: '#EEEEEE',
       radius: '0px',
@@ -8,7 +8,7 @@
       width: '100%'
     });
 $('.progressBar_2').LineProgressbar({
-    percentage: 70,
+    percentage: 90,
     fillBackgroundColor: '#3498db',
     backgroundColor: '#EEEEEE',
     radius: '0px',
@@ -16,7 +16,7 @@ $('.progressBar_2').LineProgressbar({
     width: '100%'
   });
 $('.progressBar_3').LineProgressbar({
-    percentage: 70,
+    percentage: 80,
     fillBackgroundColor: '#3498db',
     backgroundColor: '#EEEEEE',
     radius: '0px',
@@ -24,7 +24,7 @@ $('.progressBar_3').LineProgressbar({
     width: '100%'
   });
 $('.progressBar_4').LineProgressbar({
-    percentage: 80,
+    percentage: 75,
     fillBackgroundColor: '#3498db',
     backgroundColor: '#EEEEEE',
     radius: '0px',

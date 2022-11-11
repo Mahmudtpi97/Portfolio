@@ -43,13 +43,13 @@ a{
 }
 /* Fiverr Code */
 .fiverr-act {
-    max-width: 200px;
-    width: 100%;
+    width: 10%;
     position: fixed;
-    right: 0%;
+    left: 0%;
     bottom: 0%;
     z-index: 9999;
 }
+
 /*Header Area*/
 .header-area {
 	background: #b741d8;

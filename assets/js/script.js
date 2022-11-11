@@ -62,17 +62,6 @@ new Typed("#text_typing",{
     });
 
  $(window).scroll(function(){
-        var scrollvalue = $(this).scrollDown();
-  
-        if (scrollvalue>0) {
-            $('.sticky-top').fadeIn();
-        }
-      else{
-       $('.sticky-top').fadeOut();
-      }
-    });
-
- $(window).scroll(function(){
         var scrollvalue = $(this).scrollTop();
 
         if (scrollvalue>500) {

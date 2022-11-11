@@ -39,6 +39,7 @@
 }
 
 @media all and (max-width :575px){
+ .fiverr-act { display:none;}
  .banner-text{top: 10%;}
  .single-price {width: 55%;}
  .price-head h3 {font-size: 1.1rem;}

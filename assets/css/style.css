@@ -43,13 +43,18 @@ a{
 }
 /* Fiverr Code */
 .fiverr-act {
-    width: 10%;
     position: fixed;
     left: 0%;
     bottom: 0%;
     z-index: 9999;
 }
-
+.fiverr-seller-widget .fiverr-seller-content .crop {
+    width: 145px;
+    height: 150px;
+}
+.fiverr-seller-widget .fiverr-seller-content {
+    width: 150px;
+}
 /*Header Area*/
 .header-area {
 	background: #b741d8;

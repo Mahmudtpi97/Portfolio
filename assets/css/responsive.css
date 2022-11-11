@@ -5,7 +5,7 @@
 .banner-area{height: 80vh;}
 .logo-area {width: 100px;}
 .banner-text {width: 80%;}
-.about-img img {height: 350px;}
+.about-img img {width:auto; height: 350px;}
 .price-head h3 {font-size: 1.4rem;}
 .price-body td {font-size: .9rem;}
 }
@@ -29,14 +29,13 @@
 .about-right {margin-left: 0; margin-top: 1rem;}
 .skil-right {margin-left: 0; margin-top: 1rem;}
 .single-service {width: 80%;}
-.single-price {width: 70%;}
-.portfolio-nav ul li {margin: 0 .2rem; border: none; padding: .4rem; font-size: .9rem;}
+.single-price {width: 48%;}
+.portfolio-nav ul li {margin: .3rem; border: none; padding: .4rem; font-size: .9rem;}
 .carousel-control-prev, .carousel-control-next {top: 40%;}
 .carousel-control-next{right: 0%} .carousel-control-prev{left: 0%}
 .testimonial {width: 100%;}
 .social-link.justify-content-center {justify-content: flex-start !important;}
 .social-link{margin-top: 2rem;}
-.btt_btn{right: 1rem;}
 }
 
 @media all and (max-width :575px){

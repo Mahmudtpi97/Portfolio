@@ -60,6 +60,15 @@ new Typed("#text_typing",{
 
         return false;
     });
+
+ $(window).scroll(function(){
+        var scrollvalue = $(this).scrollDown();
+  
+        if (scrollvalue>0) {
+            $('.header-area').fadeIn();
+        }
+    });
+
  $(window).scroll(function(){
         var scrollvalue = $(this).scrollTop();
 

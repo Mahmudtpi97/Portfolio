@@ -65,8 +65,11 @@ new Typed("#text_typing",{
         var scrollvalue = $(this).scrollDown();
   
         if (scrollvalue>0) {
-            $('.header-area').fadeIn();
+            $('.sticky-top').fadeIn();
         }
+      else{
+       $('.sticky-top').fadeOut();
+      }
     });
 
  $(window).scroll(function(){

@@ -30,7 +30,7 @@
 .skil-right {margin-left: 0; margin-top: 1rem;}
 .single-service {width: 80%;}
 .single-price {width: 48%;}
-.portfolio-nav ul li {margin: .3rem; border: none; padding: .4rem; font-size: .9rem;}
+.portfolio-nav ul li {border: none; padding: .4rem; font-size: .9rem;}
 .carousel-control-prev, .carousel-control-next {top: 40%;}
 .carousel-control-next{right: 0%} .carousel-control-prev{left: 0%}
 .testimonial {width: 100%;}
@@ -40,7 +40,7 @@
 
 @media all and (max-width :575px){
  .banner-text{top: 10%;}
- .single-price {width: 75%;}
+ .single-price {width: 55%;}
  .price-head h3 {font-size: 1.1rem;}
  .price-head h6 {font-size:.9rem;}
  .portfolio-nav ul {flex-direction: column;}

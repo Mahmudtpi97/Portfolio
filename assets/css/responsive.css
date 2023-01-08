@@ -20,7 +20,14 @@
 		align-items: center;
 	}
 	.logo-area i{ display:block; position: absolute; right: 5%;}
-	.menu-area {display: none; margin: 3px;}
+	 .menu-area {
+	    position: absolute;
+	    right: 0;
+	    width: 50%;
+	    background: #261a2abf;
+	    display: none;
+            margin: 3px;
+	}
 	.menu-area .navbar li a {font-size: 1.1rem; }
 	.navbar {flex-direction: column;}
 	.p-5{padding: 3rem 0 !important;}

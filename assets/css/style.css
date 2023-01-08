@@ -72,12 +72,6 @@ a{
 	font-size: 1.5rem;
 	cursor: pointer;
 }
- .menu-area {
-    position: absolute;
-    right: 0;
-    width: 50%;
-    background: #261a2abf;
-}
 .menu-area .navbar{
 	justify-content:flex-end ;
 }

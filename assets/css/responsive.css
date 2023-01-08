@@ -5,7 +5,7 @@
 .banner-area{height: 80vh;}
 .logo-area {width: 100px;}
 .banner-text {width: 80%;}
-.about-img img {width:auto; height: 350px;}
+.about-img img {width:100%; height: auto;}
 .price-head h3 {font-size: 1.4rem;}
 .price-body td {font-size: .9rem;}
 }

@@ -40,7 +40,7 @@ new Typed("#text_typing",{
 })
    // Navbar
    $('.logo-area i').click(function(){
-     $('.menu-area ul li').slideToggle(500);
+     $('.menu-area').slideToggle(500);
    });
 
     // ScrollSpy

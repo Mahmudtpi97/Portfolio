@@ -19,14 +19,21 @@
 		justify-content: space-between;
 		align-items: center;
 	}
-	.logo-area i{ display:block; position: absolute; right: 5%;}
-	 .menu-area {
+	.logo-area i {
+	    display: block;
+	    position: absolute;
+	    right: 3%;
+	    z-index: 10;
+	    color: #fff;
+	}
+	.menu-area {
 	    position: absolute;
 	    right: 0;
+	    top: 36%;
 	    width: 50%;
 	    background: #261a2abf;
 	    display: none;
-            margin: 3px;
+	    z-index: -1;
 	}
 	.menu-area .navbar li a {font-size: 1.1rem; }
 	.navbar {flex-direction: column;}

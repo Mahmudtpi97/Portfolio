@@ -1,6 +1,6 @@
 @media all and (max-width: 991px){
  /*Header Area*/
-.menu-area .navbar li{margin: 0 5px;}
+.menu-area .navbar li{margin: 5px;}
 .menu-area .navbar li a {font-size: .9rem;}
 .banner-area{height: 80vh;}
 .logo-area {width: 100px;}
